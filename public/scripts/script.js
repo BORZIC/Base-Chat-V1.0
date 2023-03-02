@@ -22,13 +22,13 @@ $(function () {
                 
                 switch(message){
 
-                    case "/dark":
+                    case "/styledark":
                         $("#style").attr("href", "../styles/style.css");
                         break;
-                    case "/light":
+                    case "/stylelight":
                         $("#style").attr("href", "../styles/light.css"); 
                         break;
-                    case "/green":
+                    case "/stylegreen":
                         $("#style").attr("href", "../styles/green.css"); 
                         break;
                     default:

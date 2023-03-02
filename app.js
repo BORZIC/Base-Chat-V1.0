@@ -38,5 +38,5 @@ http.listen(5050, () => {
 });
 
 process.on('exit', function() {
-	console.log('Goodbye!');
+	console.log('Terminated!');
 });
